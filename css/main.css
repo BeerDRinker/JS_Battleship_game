@@ -1,0 +1,46 @@
+/* Coded by Paliy Rostyslav. e-mail: paliy1984@gmail.com. skype: ros.coprandos !!!SYLB!!!
+Battleship game v0.01 */
+
+h1 {
+    text-align: center;
+}
+
+/*---------- Clear Fix 001 ----------*/
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+/*---------- Clear Fix 002 ----------*/
+
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+.cf {
+    *zoom: 1;
+}
